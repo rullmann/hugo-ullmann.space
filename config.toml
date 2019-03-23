@@ -1,0 +1,33 @@
+baseURL = "https://ullmann.space/"
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+relativeURLs = true
+disableRSS = true
+enableRobotsTXT = true
+editor = "vi"
+languageCode = "en"
+language = "us"
+theme = "vncnt-hugo"
+title = "Rico Ullmann · Landing Page"
+
+[blackfriday]
+  extensions = ["hardLineBreak"]
+
+[permalinks]
+  fixed = ":title/"
+  posts = "posts/:slug/"
+
+[params]
+  author = "Rico Ullmann"
+  email = "rico@ullmann.space"
+  description = "Landing Page"
+  bio = "Friendly nerd with his Thinkpad\nFedora and monitoring fanboy.\nFor a living? IT Consultant - Atlassian."
+  avatar = "img/rullmann.jpg"
+  favicon = "img/favicon.ico"
+  error404 = "There is no such page."
+
+  [params.contact]
+    github = "https://github.com/rullmann"
+    instagram = "https://instagram.com/_0x23"
+    twitter = "https://twitter.com/_0x23"
